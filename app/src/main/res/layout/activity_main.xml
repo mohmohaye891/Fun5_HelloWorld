@@ -87,6 +87,16 @@
             android:layout_below="@+id/et_user_password"
             android:layout_alignRight="@+id/et_user_password"/>
 
+        <TextView
+            android:id="@+id/btn_register_new_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register New Account"
+            android:layout_below="@+id/btn_login"
+            android:layout_alignRight="@+id/btn_login"
+            android:foreground="@drawable/ripple"
+            android:padding="8dp"/>
+
     </RelativeLayout>
 
     <android.support.design.widget.FloatingActionButton

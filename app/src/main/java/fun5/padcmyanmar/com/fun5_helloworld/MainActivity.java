@@ -1,5 +1,6 @@
 package fun5.padcmyanmar.com.fun5_helloworld;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,6 +58,17 @@ public class MainActivity extends AppCompatActivity {
                 }else {
                     Toast.makeText(v.getContext(),"Phone Number and Password is incorrect", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        TextView btnRegisterNewAccount = findViewById(R.id.btn_register_new_account);
+        btnRegisterNewAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(v, "Navigate to Register", Snackbar.LENGTH_INDEFINITE).show();
+
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }
