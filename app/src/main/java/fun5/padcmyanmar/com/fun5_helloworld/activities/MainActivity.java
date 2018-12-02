@@ -1,4 +1,4 @@
-package fun5.padcmyanmar.com.fun5_helloworld;
+package fun5.padcmyanmar.com.fun5_helloworld.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import fun5.padcmyanmar.com.fun5_helloworld.R;
 
 public class MainActivity extends AppCompatActivity {
 

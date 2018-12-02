@@ -1,9 +1,11 @@
-package fun5.padcmyanmar.com.fun5_helloworld;
+package fun5.padcmyanmar.com.fun5_helloworld.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import fun5.padcmyanmar.com.fun5_helloworld.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
